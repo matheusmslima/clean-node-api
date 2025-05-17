@@ -9,7 +9,8 @@
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
     "lint": "eslint",
     "test:staged": "npm test -- --findRelatedTests",
-    "test:ci": "npm test -- --coverage"
+    "test:ci": "npm test -- --coverage",
+    "posttest": "rm -rf globalConfig.json"
   },
   "keywords": [],
   "author": "",
